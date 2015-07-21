@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>3 Carousel Layout (BS 3)</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="css/styles.css" rel="stylesheet">
+		<style>
+.popover-example .popover {
+  position: relative;
+  display: block;
+  margin: 20px;
+}
+</style>
+	</head>
+	<body>
+
+	
+	<div class="navbar-wrapper">
+  <div class="container-fluid">
+    <nav class="navbar navbar-inverse default">
+      
+        <div class="navbar-header">
+	    <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </a>
+        <a class="navbar-brand" href="#">DataCube</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="iot.html">IoT/IoE Products</a></li>
+                <li><a href="bigdata.html">Big Data Products</a></li>
+                <li><a href="mobile.html">Mobile Products</a></li>
+              </ul>
+            </li>
+             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="management.html">Management</a></li>
+                <li><a href="#">Code of Conduct</a></li>
+                <li><a href="#">Business Process</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+            </li>
+          </ul>
+       </div>
+
+    </div>
+  </div><!-- /container -->
+</nav><!-- /navbar wrapper -->
+<div style="margin-top:100px"  class="row">	
+<div class="col-md-6 col-md-offset-3">
+<div class="well">
+<div class="col-md-12 col-md-offset-3">
+	<font face="helvetica" size="6" >Internet Of Things</font>
+	</div>
+	
+	<font face="helvetica" size="4">
+	Gartner define Internet of Things "is the network of physical objects that contain embedded technology to communicate and sense or interact with their internal states or the external environment."<br>As per International Corporation(IDC) press release "The Internet of Things is poised to Change everything", The Internet of Things(IoT) represents a new construct in the information and communications technology(ICT) world that is occupying the minds of IT vendors, service providers, and system integratos as it represents huge potential for new streams of revenue and new customers.</font></div>
+</div>
+<div class="col-md-2 ">
+
+<div class="popover-example">
+    <div  style="background-color:#6585E6;color:white" class="popover top">
+      <div class="arrow"></div>
+      <h3 style="background-color:#6585E6;color:white" class="popover-title">Accolade 1</h3>
+      <div class="popover-content">
+        <p>No. 1 in the IoT research</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-2 ">
+
+<div   class="popover-example">
+    <div style="background-color:#6585E6 ;color:white" class="popover top">
+      <div class="arrow"></div>
+      <h3 style="background-color:#6585E6;color:white" class="popover-title">Accolade 2</h3>
+      <div class="popover-content">
+        <p>Awarded Excellent Solution award</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+<div class="col-md-12 col-md-offset-1">
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">
+  &nbsp;&nbsp;Brochure&nbsp;&nbsp;
+</button>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12"><br><br>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 col-md-offset-1">
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  White Paper
+</button>
+</div>
+<div style="background-color:green;color:white" class="col-md-2 col-md-offset-4">
+Number of Sensors: 30<br>Data Streams: 30kb/sec <br>Price: $30/month
+</div>
+<div style="background-color:green;color:white" class="col-md-2 col-md-offset-1">
+Number of Sensors: 60<br>Data Streams: 50kb/sec <br>Price: $50/month
+</div>
+</div>
+<!-- Modal 1-->
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Brochure</h4>
+      </div>
+      <div class="modal-body">
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Download White paper</h4>
+      </div>
+      <div class="modal-body">
+       <form role="form" method = "post" action = "http://localhost:8000/server.js">
+  <div class="form-group">
+    <label for="first name">Enter First Name</label>
+    <input type="text" class="form-control" id="firstname" placeholder="Enter First Name">
+  </div>
+  <div class="form-group">
+    <label for="last name">Enter Last Name</label>
+    <input type="text" class="form-control" id="lastname" placeholder="Enter Last Name">
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="email" class="form-control" id="email" placeholder="Enter Email id">
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">&nbsp;Cancel&nbsp;</button>
+        <button type="button" class="btn btn-primary" onclick = "downloadFile()">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+ <footer class="text-center" style = "background-color:lightgrey" >
+        <div class="footer-above">
+            <div class="container"> </div> </div>
+       <div class="footer-below">
+        <div class="container">
+            <div class="row">
+            <p class="pull-right"><a href="#">Back to top</a></p>
+                <div class="col-lg-12">
+                    <b>Copyright &copy; DataCube </b>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+	<!-- script references -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="js/downloadRequest.js"></script>
+		</div>
+	</body>
+</html>
